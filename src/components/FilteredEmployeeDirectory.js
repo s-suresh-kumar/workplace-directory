@@ -10,11 +10,11 @@ class FilteredEmployeeDirectory extends React.Component {
   };
 
   componentDidMount() {
-    console.log('FilteredEmployeeDirectory::length', this.props.employeeDirectory.length)
-    console.log('FilteredEmployeeDirectory::employees', this.props.employeeDirectory)
+    // console.log('FilteredEmployeeDirectory::length', this.props.employeeDirectory.length)
+    // console.log('FilteredEmployeeDirectory::employees', this.props.employeeDirectory)
     if (this.state.filteredEmployeeDirectory.length < 1) {
       this.setState({
-        filteredEmployeeDirectory: this.props.employeeDirectory
+        filteredEmployeeDirectory: this.props.employeeDirEntries
       })
     }
   }

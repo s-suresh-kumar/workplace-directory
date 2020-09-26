@@ -1,5 +1,5 @@
 import axios from "axios";
-const country = 'US';
+const country = 'us';
 const numResults = 200;
 const QUERYURL = "https://randomuser.me/api/?results=";
 

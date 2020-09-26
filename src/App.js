@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import API from './util/API'
 import Header from './components/Header'
+import FilteredEmployeeDirectory from './components/FilteredEmployeeDirectory'
 
 class App extends React.Component {
   state = {
@@ -22,6 +23,10 @@ class App extends React.Component {
     return (
       <div className="App" >
         <Header />
+        {this.state.employeeDirEntries.length > 0 &&
+
+          <FilteredEmployeeDirectory employeeDirEntries={this.state.employeeDirEntries} />
+        }
 
       </div>
     );
