@@ -25,7 +25,7 @@ class FilteredEmployeeDirectory extends React.Component {
       searchEmp: event.target.value
     });
     let searchVal = event.target.value;
-    const filteredList = this.props.employeeDirectory.filter((item) => {
+    const filteredList = this.props.employeeDirEntries.filter((item) => {
       let values = item.name.title + item.name.first + item.name.last + item.dob.date + item.email + item.phone;
       return values.indexOf(searchVal) !== -1;
 
