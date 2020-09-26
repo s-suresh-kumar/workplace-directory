@@ -2,6 +2,7 @@
   "name": "workplace-directory",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://s-suresh-kumar.github.io/workplace-directory",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
