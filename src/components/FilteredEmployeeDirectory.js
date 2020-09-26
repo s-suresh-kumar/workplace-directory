@@ -38,14 +38,14 @@ class FilteredEmployeeDirectory extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="container-md">
         <form className="form">
           <input
             value={this.state.searchEmp}
             name="searchEmpDirectory"
             onChange={event => this.handleInputChange(event)}
             type="text"
-            placeholder="Search Employee Directory"
+            placeholder="Search in the Directory "
           />
         </form>
         {

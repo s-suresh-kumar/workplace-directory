@@ -2,7 +2,7 @@ import React from "react";
 import "./sortedEmployeeDirectory.css";
 import { Table, Thead, Tbody, Tr, Th, Td } from 'react-super-responsive-table'
 import RowEmployeeEntry from './RowEmployeeEntry.js'
-
+import 'react-super-responsive-table/dist/SuperResponsiveTableStyle.css'
 
 class SortedEmployeeDirectory extends React.Component {
 
@@ -37,19 +37,19 @@ class SortedEmployeeDirectory extends React.Component {
       sortEmp = this.props.empDir.sort((a, b) => {
         const nameLeft = a.name.last.toLowerCase(), nameRight = b.name.last.toLowerCase();
         if (nameLeft < nameRight)
-          return -1
+          return -1;
         if (nameLeft > nameRight)
-          return 1
-        return 0
+          return 1;
+        return 0;
       })
     } else {
       sortEmp = this.props.empDir.sort((a, b) => {
         const nameLeft = a.name.last.toLowerCase(), nameRight = b.name.last.toLowerCase();
         if (nameLeft > nameRight)
-          return -1
+          return -1;
         if (nameLeft < nameRight)
-          return 1
-        return 0
+          return 1;
+        return 0;
       })
     }
     this.setState({
@@ -61,7 +61,7 @@ class SortedEmployeeDirectory extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="container-md">
         <Table>
           <Thead>
             <Tr>
@@ -70,7 +70,6 @@ class SortedEmployeeDirectory extends React.Component {
               <Th>Phone</Th>
               <Th>Email</Th>
               <Th>DOB</Th>
-              {/* <Th onClick={this.sortAge} className="dob">DOB</p></div> */}
             </Tr>
           </Thead>
           <Tbody>
@@ -80,16 +79,15 @@ class SortedEmployeeDirectory extends React.Component {
               this.state.sortedEmployeeDirectory.map((elem, index) => (
 
                 <RowEmployeeEntry
-                  // key={elem.id.value}
+                  key={elem.dob.age * Math.random()}
                   imageUrl={elem.picture.thumbnail}
                   firstName={elem.name.first}
                   lastName={elem.name.last}
                   dateOfBirth={elem.dob.date.split('T')[0]}
-                  phone={elem.phone}
+                  phoneNumber={elem.phone}
                   email={elem.email}
                 />
               ))
-
             }
           </Tbody>
         </Table >
