@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0ba4b2aefd87450fe5c3595bac9c1f68",
+    "revision": "c5f78f59feadead6cdce68714a4111da",
     "url": "/workplace-directory/index.html"
   },
   {
-    "revision": "fa46be9a0958f547f27a",
+    "revision": "a2cb2a697549c0f3680a",
     "url": "/workplace-directory/static/css/2.326c04ff.chunk.css"
   },
   {
-    "revision": "2b2e643de115a1c7e6c4",
+    "revision": "7cc4ea0db8037eec1a76",
     "url": "/workplace-directory/static/css/main.013b6db0.chunk.css"
   },
   {
-    "revision": "fa46be9a0958f547f27a",
-    "url": "/workplace-directory/static/js/2.808f6ea4.chunk.js"
+    "revision": "a2cb2a697549c0f3680a",
+    "url": "/workplace-directory/static/js/2.af400040.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/workplace-directory/static/js/2.808f6ea4.chunk.js.LICENSE.txt"
+    "url": "/workplace-directory/static/js/2.af400040.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2b2e643de115a1c7e6c4",
-    "url": "/workplace-directory/static/js/main.2fccd69a.chunk.js"
+    "revision": "7cc4ea0db8037eec1a76",
+    "url": "/workplace-directory/static/js/main.891965c0.chunk.js"
   },
   {
     "revision": "4e10759726594db17cfe",
