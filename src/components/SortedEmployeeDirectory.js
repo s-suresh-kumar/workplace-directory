@@ -7,7 +7,8 @@ import 'react-super-responsive-table/dist/SuperResponsiveTableStyle.css'
 class SortedEmployeeDirectory extends React.Component {
 
   state = {
-    alphabetical: true,
+    sortByName: true,
+    sortByDob: true,
     sortedEmployeeDirectory: []
   }
 
@@ -31,10 +32,38 @@ class SortedEmployeeDirectory extends React.Component {
     }
   }
 
-  sortName = () => {
-    let sortEmp = [];
-    if (this.state.alphabetical) {
-      sortEmp = this.props.empDir.sort((a, b) => {
+  doSortByDOB = () => {
+    let sortedEmp = [];
+    if (this.state.sortByDob) {
+      sortedEmp = this.props.empDir.sort((a, b) => {
+        const dobX = new Date(a.dob.date), dobY = new Date(b.dob.date);
+        if (dobX < dobY)
+          return -1
+        if (dobX > dobY)
+          return 1
+        return 0
+      })
+    } else {
+      sortedEmp = this.props.empDir.sort((a, b) => {
+        const dobX = new Date(a.dob.date), dobY = new Date(b.dob.date);
+        if (dobX > dobY)
+          return -1
+        if (dobX < dobY)
+          return 1
+        return 0
+      })
+    }
+    this.setState({
+      sortByDob: !this.state.sortByDob,
+      sortedEmployees: sortedEmp
+
+    })
+  }
+
+  doSortByName = () => {
+    let sortedEmp = [];
+    if (this.state.sortByName) {
+      sortedEmp = this.props.empDir.sort((a, b) => {
         const nameLeft = a.name.last.toLowerCase(), nameRight = b.name.last.toLowerCase();
         if (nameLeft < nameRight)
           return -1;
@@ -43,7 +72,7 @@ class SortedEmployeeDirectory extends React.Component {
         return 0;
       })
     } else {
-      sortEmp = this.props.empDir.sort((a, b) => {
+      sortedEmp = this.props.empDir.sort((a, b) => {
         const nameLeft = a.name.last.toLowerCase(), nameRight = b.name.last.toLowerCase();
         if (nameLeft > nameRight)
           return -1;
@@ -53,8 +82,8 @@ class SortedEmployeeDirectory extends React.Component {
       })
     }
     this.setState({
-      alphabetical: !this.state.alphabetical,
-      sortedEmployeeDirectory: sortEmp
+      sortByName: !this.state.sortByName,
+      sortedEmployeeDirectory: sortedEmp
 
     })
   }
@@ -66,10 +95,10 @@ class SortedEmployeeDirectory extends React.Component {
           <Thead>
             <Tr>
               <Th>Image</Th>
-              <Th onClick={this.sortName} className="name" scope="col">Name</Th>
+              <Th onClick={this.doSortByName} className="cur-pointer" scope="col">Name</Th>
               <Th>Phone</Th>
               <Th>Email</Th>
-              <Th>DOB</Th>
+              <Th onClick={this.doSortByDOB} className="cur-pointer" scope="col">DOB</Th>
             </Tr>
           </Thead>
           <Tbody>
