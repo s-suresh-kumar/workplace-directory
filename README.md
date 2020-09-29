@@ -97,6 +97,6 @@ Either you can play with the app on local host or deploy it in github gh-pages o
  Please send your questions via e-mail or via my github profile.
 
  suresh01@yahoo.com
- [![Thumbnail](public/assets/images/github.jpg)](https://github.com/s-suresh-kumar)
+ [![Thumbnail](public/images/github.jpg)](https://github.com/s-suresh-kumar)
 
  `
