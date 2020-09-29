@@ -1,7 +1,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 # workplace-directory 
 An employee directory react application where one can browse , sort and search for employees.
-[![Thumbnail](public/images/workplace-directory-thumnail.JPG)](https://s-suresh-kumar.github.io/workplace-directory/)
+[![Thumbnail](public/images/workplace-directory-thumbnail.JPG)](https://s-suresh-kumar.github.io/workplace-directory/)
 
  - [Description](#Description)
 
