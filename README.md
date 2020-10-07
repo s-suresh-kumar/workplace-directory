@@ -90,7 +90,7 @@ Either you can play with the app on local host or deploy it in github gh-pages o
 
  ## Tests
 
- There are no automated tests written for this app. However it is easy to launch the app by going to https://fast-ridge-87581.herokuapp.com/, Once the page is visited, it is straight forward to create new workouts and add exercises to it, by entering workout details.
+ There are no automated tests written for this app. However it is easy to launch the app by going to https://s-suresh-kumar.github.io/workplace-directory/, Once the page is visited, it is straight forward to launch the app, filter results etc., The sorting works fine with desktop version.  However for view port sizes less than 800 px, the sort functionality does not work. It is one of the limitations of the third party react package that I used. I am looking for ways to improve that known issue ( perhaps submit a PR if I can successfully find an improvement to the problem)
 
  ## Questions
 
