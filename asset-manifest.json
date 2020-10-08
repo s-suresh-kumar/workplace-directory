@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/workplace-directory/static/css/main.606f9727.chunk.css",
+    "main.css": "/workplace-directory/static/css/main.ccdc2494.chunk.css",
     "main.js": "/workplace-directory/static/js/main.2fccd69a.chunk.js",
     "main.js.map": "/workplace-directory/static/js/main.2fccd69a.chunk.js.map",
     "runtime-main.js": "/workplace-directory/static/js/runtime-main.8695945b.js",
@@ -9,10 +9,10 @@
     "static/js/2.808f6ea4.chunk.js": "/workplace-directory/static/js/2.808f6ea4.chunk.js",
     "static/js/2.808f6ea4.chunk.js.map": "/workplace-directory/static/js/2.808f6ea4.chunk.js.map",
     "index.html": "/workplace-directory/index.html",
-    "precache-manifest.e267c965837964dd8efb0218a64f72a7.js": "/workplace-directory/precache-manifest.e267c965837964dd8efb0218a64f72a7.js",
+    "precache-manifest.445c7c73174330a3d156657b8202e51d.js": "/workplace-directory/precache-manifest.445c7c73174330a3d156657b8202e51d.js",
     "service-worker.js": "/workplace-directory/service-worker.js",
     "static/css/2.ee7107a9.chunk.css.map": "/workplace-directory/static/css/2.ee7107a9.chunk.css.map",
-    "static/css/main.606f9727.chunk.css.map": "/workplace-directory/static/css/main.606f9727.chunk.css.map",
+    "static/css/main.ccdc2494.chunk.css.map": "/workplace-directory/static/css/main.ccdc2494.chunk.css.map",
     "static/js/2.808f6ea4.chunk.js.LICENSE.txt": "/workplace-directory/static/js/2.808f6ea4.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/workplace-directory/static/media/logo.5d5d9eef.svg"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.8695945b.js",
     "static/css/2.ee7107a9.chunk.css",
     "static/js/2.808f6ea4.chunk.js",
-    "static/css/main.606f9727.chunk.css",
+    "static/css/main.ccdc2494.chunk.css",
     "static/js/main.2fccd69a.chunk.js"
   ]
 }
