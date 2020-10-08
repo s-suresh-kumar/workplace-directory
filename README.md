@@ -26,7 +26,7 @@ Just clone the repository, and issue `npm i` to install dependencies. To use loc
 
  ## Instructions
 
-Either you can play with the app on local host or deploy it in github gh-pages or deploy it in Heroku so that one can access the functionality of the app. Using the app is pretty straight forward. To begin with 200 random users / employees are fetched from randomuser API and rendered as table of users showing picture, name, phone, e-mail and date of birth in respective columns. Using the search box, one can search for a set of employees or a specific employees, as the user keeps typing, the table is automagically re-rendered by react filtering the number of users filtered by the search string. Also the app allows sorting to be performed based on name of employee or DOB of the employee. The whole app is pretty responsive, execept for one issue where the sorting onClick handlers don't work for viewport sizes less than 800 px. This is one of the limitations of one of the chosen third party packages called react-super-responsive-table. Looking for ways to improve that aspect.
+Either you can play with the app on local host or deploy it in github gh-pages or deploy it in Heroku so that one can access the functionality of the app. Using the app is pretty straight forward. To begin with 200 random users / employees are fetched from randomuser API and rendered as table of users showing picture, name, phone, e-mail and date of birth in respective columns. Using the search box, one can search for a set of employees or a specific employees, as the user keeps typing, the table is automagically re-rendered by react filtering the number of users filtered by the search string. Also the app allows sorting to be performed based on name of employee or DOB of the employee. 
 
  ## License
 
@@ -90,7 +90,7 @@ Either you can play with the app on local host or deploy it in github gh-pages o
 
  ## Tests
 
- There are no automated tests written for this app. However it is easy to launch the app by going to https://s-suresh-kumar.github.io/workplace-directory/, Once the page is visited, it is straight forward to launch the app, filter results etc., The sorting works fine with desktop version.  However for view port sizes less than 800 px, the sort functionality does not work. It is one of the limitations of the third party react package that I used. I am looking for ways to improve that known issue, but not successful yet.
+ There are no automated tests written for this app. However it is easy to launch the app by going to https://s-suresh-kumar.github.io/workplace-directory/, Once the page is visited, it is straight forward to launch the app, filter results, sort by name and  DOB.
 
  ## Questions
 
