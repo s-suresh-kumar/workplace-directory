@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0fd4bbed510125f91cdc112239436330",
+    "revision": "c2aaa0405dbd5186e38396c668e9e530",
     "url": "/workplace-directory/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/workplace-directory/static/css/2.ee7107a9.chunk.css"
   },
   {
-    "revision": "c5981236afb051497bbd",
+    "revision": "f65d55e1bb90ebc15879",
     "url": "/workplace-directory/static/css/main.ccdc2494.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/workplace-directory/static/js/2.808f6ea4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c5981236afb051497bbd",
-    "url": "/workplace-directory/static/js/main.2fccd69a.chunk.js"
+    "revision": "f65d55e1bb90ebc15879",
+    "url": "/workplace-directory/static/js/main.ee99d876.chunk.js"
   },
   {
     "revision": "4e10759726594db17cfe",
