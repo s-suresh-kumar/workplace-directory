@@ -21,7 +21,7 @@ class App extends React.Component {
   render() {
     console.log('employeeDirEntries', this.state.employeeDirEntries);
     return (
-      <div className="App" >
+      <div className="App container-fluid" >
         <Header />
         {this.state.employeeDirEntries.length > 0 &&
 
