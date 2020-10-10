@@ -4,6 +4,8 @@ An employee directory react application where one can browse , sort and search f
 [![Thumbnail](public/images/workplace-directory-thumbnail.JPG)](https://s-suresh-kumar.github.io/workplace-directory/)
 
  - [Description](#Description)
+  
+ - [Deployed-Application](#Deployed-Application)
 
  - [Installation](#Installation)
 
@@ -20,6 +22,10 @@ An employee directory react application where one can browse , sort and search f
  ## Description
 
 This app creates an employee directory by using data from randomuser.me API. With this app, one can view the employee directory, search for a particular employee or employees that match the search string. Also the employees can be sorted based on name or DOB. This app is bootstrapped with [Create React App](https://github.com/facebook/create-react-app). This is front-end only application with a front-end API call fetching necessary data for display. 
+
+ ## Deployed-Application
+
+The deployed application can be found at:  https://s-suresh-kumar.github.io/workplace-directory/
 
  ## Installation
 Just clone the repository, and issue `npm i` to install dependencies. To use locally, one has to issue `npm start` which will launch the app on the default browser. 
