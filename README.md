@@ -96,7 +96,7 @@ Either you can play with the app on local host or deploy it in github gh-pages o
 
  ## Tests
 
- There are no automated tests written for this app. However it is easy to launch the app by going to https://s-suresh-kumar.github.io/workplace-directory/, Once the page is visited, it is straight forward to launch the app, filter results, sort by name and  DOB.
+ There are no automated tests written for this app. However it is easy to launch the app by going to https://s-suresh-kumar.github.io/workplace-directory/, Once the page is visited, it is straight forward to use the app. User can filter results, sort by name and  DOB.
 
  ## Questions
 
